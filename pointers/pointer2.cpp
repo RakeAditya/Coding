@@ -25,7 +25,7 @@ int main()
     cout<<"last element k address = "<<(arr+5)<<endl;
     // character array
     char a[] ="qazwsx";
-    // address
+    // addressṇ
     cout<<&a<<endl;
     //  whole array de dega
     cout<<a<<endl;
