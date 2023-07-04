@@ -8,7 +8,7 @@ bool waySafe(int x,int y,int n,vector<vector<int>> mapp,vector<vector<int>> m)
 }
 void rat(vector<vector<int>> m,int n,vector<vector<int>> mapp,string way,int x, int y,vector<string> &ans)
 {
-    if(x==n-1 && x==n-1 && m[x][y]==1)
+    if(x==n-1 && y==n-1 && m[x][y]==1)
     {
         ans.push_back(way);
         return;
