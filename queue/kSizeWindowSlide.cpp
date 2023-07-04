@@ -26,6 +26,9 @@ vector<int> solve(vector<int> &arr, int k)
     // agle bache hue k lie
     for(int i=k;i<arr.size();i++)
     {
+        // remove kro phle
+        if(!qu.empty() && arr[k-i] == qu.front())
+            qu.pop();
         if(arr[i] < 0)
             qu.push(arr[i]);
         if(!qu.empty())
