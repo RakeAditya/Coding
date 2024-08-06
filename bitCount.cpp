@@ -25,7 +25,7 @@ int main() {
     int n;
     cin>>n;
     int bin = bitFind(n);
-    cout<<bin<<endl;
-    cout<<countBit(bin);
+    cout<<"Binary Conversions = "<<bin<<endl;
+    cout<<"No of 1's is "<<countBit(bin);
     return 0;
 }
